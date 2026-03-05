@@ -10,6 +10,9 @@ print ("A média das notas é:", media)
 if media >= 6:
  print ("Parabéns, você foi aprovado.")
 
+ elif media >= 4:
+ print ("Você está de recuperação.")
+
 else:
  print ("Infelizmente, você foi reprovado.")
 
