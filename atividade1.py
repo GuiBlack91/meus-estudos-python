@@ -1,0 +1,1 @@
+input ('diga o seu nome: ')

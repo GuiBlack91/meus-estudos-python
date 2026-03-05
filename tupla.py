@@ -1,0 +1,6 @@
+futebol = ('Vila Nova', 'Goiás', 'Flamengo', 'Corinthians', 'Palmeiras', 'São Paulo')
+exlcuir = input("Digite o nome do time que deseja excluir:")
+futebol = list(futebol)
+futebol.remove(exlcuir)
+futebol = tuple(futebol)
+print(futebol)
